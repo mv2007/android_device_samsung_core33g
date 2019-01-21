@@ -1,11 +1,11 @@
 ## Specify phone tech before including full_phone	
-$(call inherit-product, vendor/cm/config/telephony.mk)
+$(call inherit-product, vendor/aosp/config/telephony.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := core33g
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device_core33g.mk)
