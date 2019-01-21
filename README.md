@@ -1,4 +1,4 @@
-Copyright 2014 - The CyanogenMod Project
+Copyright 2014 -- The CyanogenMod Project
 ===================================
 
 Device configuration for Samsung Galaxy Core Prime SM-G360H (core33g)
