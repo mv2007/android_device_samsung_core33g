@@ -4,11 +4,11 @@ $(call inherit-product, vendor/aosp/config/telephony.mk)
 # Release name
 PRODUCT_RELEASE_NAME := core33g
 
-# Inherit some common CM stuff.
+# Inherit some common AOSP stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, $(LOCAL_PATH)/device_core33g.mk)
+$(call inherit-product, $(LOCAL_PATH)/core33g.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := core33g
